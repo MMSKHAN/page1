@@ -1,0 +1,53 @@
+.footermain{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 46px;
+    background: #161620;
+}
+.copy{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+font-size:12px;
+font-weight: 700px;
+}
+.terms{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+font-size:12px;
+font-weight: 700px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.instagram{
+    font-size: 1rem;
+    color: white;
+}
+.instagram:hover{
+    color: tomato;
+}
+.discord{
+    font-size: 1rem;
+    color: white;
+}
+.discord:hover{
+    color: rgb(86, 86, 196);
+}
+.twitter{
+    font-size: 1rem;
+    color: white;
+}
+.twitter:hover{
+    color: rgba(32, 128, 224, 0.689);
+}
+@media screen and (max-width:600px) {
+    .footermain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
